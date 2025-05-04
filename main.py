@@ -70,11 +70,14 @@ def menu():
             fila.listar_tarefas()
 
         elif opcao == '4':
-            print("Saindo do sistema...")
+            print("\n1...")
+            print("2...")
+            print("3...")
+            print("Saindo do sistema...\n")
             break
 
         else:
-            print("Opção inválida. Tente novamente.")
+            print("\nOpção inválida. Tente novamente.\n")
 
 if __name__ == "__main__":
     menu()
